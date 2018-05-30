@@ -5,18 +5,33 @@
 .flex-container {
   display: flex;
   flex-direction: row;
-  border: 5px solid blueviolet;
+  border: 40px solid blueviolet;
+  border-radius: 100px;
+
+}
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  border-block-end: #FF0000;
+  border-radius: 100px;
 
 }
 
 h2 {
-  text-align: center;
+  text-align: justify;
   font-family: "Comic Sans MS", cursive, sans-serif;
+  background-image: 
   
+}
+
+h3 {
+  text-shadow: 2px 2px rgb(112, 162, 218);
+
 }
 
 b {
   text-decoration-line: underline;
+  text-shadow: 2px 2px rgb(112, 162, 218);
 
 }
 
@@ -31,6 +46,8 @@ img {
   position: relative;
   width: 200px;
   height: 200px;
+  border: 15px solid white;
+  border-radius: 200px;
  
 }
 
@@ -39,6 +56,11 @@ img {
   height: 150px;
   padding: 20px;
   color: white;
+}
+
+button {
+  text-shadow: 2px 2px #FF0000;
+
 }
 
 

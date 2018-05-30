@@ -7,15 +7,15 @@ class Home extends Component {
         <div>
             <div className = "flex-container" >
             <img src="ZoopZ-JH_Revised.jpg" alt="ZoopZ-logo" />
-            <input type="button" alt="On Click" /> 
     
-    
-                <h2> <b> About Zoops: </b> Zoops is an interactive app that allows you to search for fun places and activities to take your kids to. </h2>   
-                <h5> <div> Sign in </div> <div> Password </div></h5>
-                
+                <h2> <b> About Zoops:</b> Zoops helps you find fun places and activities for all family fun and events </h2>   
+                <h3> <input type="button" alt="On Click" value="Sign in"/></h3>
         </div>
-        
-        <div> Enter information below to let Zoops help you have Family Fun!(Below Top Container in styled container) </div>
+        <div className = "flex-container2" >
+
+<div> Enter information below to let Zoops help you have Family Fun!(Below Top Container in styled container) </div>
+
+        </div>    
 
         <div> Input Buttons below instructions </div>
 
