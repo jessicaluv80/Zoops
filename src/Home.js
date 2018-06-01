@@ -9,7 +9,8 @@ class Home extends Component {
                                 <div className="flex-container1" >
                                         <img src="ZoopZ-JH_Revised.jpg" alt="ZoopZ-logo" />
 
-                                        <h2> <b> About Zoops:</b> Zoops helps you find fun places and activities for all family fun and events </h2>
+                                        <header classname="App-header">
+                                        <b> ZoopZ</b> helps you find fun places and activities for all family fun and events </header>
                                         <h3> <input type="button" alt="On Click" value="Sign in" /></h3>
                                 </div>
                                 <div className="flex-container2" >
@@ -33,8 +34,7 @@ class Home extends Component {
                                                                         Zip Code:
                                                                                 <input type="text" zip="zip"/>
                                                                 </label>
-                                                                        Miles Willing To Travel:
-                                                                        <input type="text" miles="miles"/> 
+                                                                        
                                                                         <input type="submit" submit="Submit" />                                                              
                                                         </form>
                                                 

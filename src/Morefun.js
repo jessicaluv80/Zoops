@@ -3,7 +3,7 @@ import React, { Component } from 'react';
     class Foundfun extends Component {
         render () {
             return (
-                <div> Foundfun
+                <div> Mo fun
                 </div>
             )
         }
