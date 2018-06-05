@@ -23,11 +23,11 @@ class Home extends Component {
                                                 
                                                         <form>
                                                                 <label>
-                                                                        How Many Kids:
+                                                                        Indoor:
                                                                            <input type="text" qty="kids" />
                                                                 </label>
                                                                 <label>
-                                                                        Ages:
+                                                                        Outdoor:
                                                                                 <input type="text" age="age" />
                                                                 </label>    
                                                                 <label>

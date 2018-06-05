@@ -21,10 +21,6 @@ import ReactPropTypes from 'prop-types'
                                 <input type="text" name=' ' />
                             </label>
 
-                            <label> Ages:
-                                <input type="text" number=' ' />
-                            </label>
-
                             <label> Link:
                                 <input type="text" name=' ' />
                             </label>
