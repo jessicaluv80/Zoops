@@ -6,17 +6,17 @@
 .flex-container1 {
   display: flex;
   flex-direction: row;
-  flex-flow: column-reverse;
   border: 20px solid blueviolet;
-  border-radius: 100px;
+  border-radius: 50px;
 
 }
 .flex-container2 {
   display: flex;
   flex-direction: column;
   flex-shrink: 20px;
-  border: 10px solid green;
+  border: 10px solid rgb(252, 244, 132);
   text-align: center;
+  border-radius: 200px;
   
 }
 
@@ -24,14 +24,14 @@
   display: flex;
   flex-direction: column;
   border: 10px solid orange;
+  border-radius: 75px;
   
 }
 img {
   float: left;
-  position: relative;
-  width: 250px;
-  height: 150px;
-  border: 15px solid white;
+  width: 200px;
+  height: 200px;
+  border: 15px solid rgb(255, 255, 255);
   border-radius: 200px;
  
 }
@@ -47,9 +47,14 @@ h3 {
 
 }
 
-b {
+header {
   text-shadow: 2px 2px rgb(112, 162, 218);
+  font-size: 50px;
 
+}
+
+body {
+  background-color: pink;
 }
 
 
@@ -71,6 +76,10 @@ nav {
   font-size: 29px;
   background-color: aqua;
   background-origin: padding-box 20px;
+}
+
+form {
+  font-size: 25px;
 }
 
 @keyframes App-logo-spin {

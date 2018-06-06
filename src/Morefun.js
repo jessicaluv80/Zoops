@@ -1,13 +1,29 @@
 import React, { Component } from 'react';
+import Addfun from './Addfun'
 
-    class Foundfun extends Component {
-        render () {
-            return (
-                <div> Mo fun Mo fun Mo fun
-                </div>
-            )
-        }
-    }    
+class Morefun extends Component {
+    state = {
+        events: []
+    }
 
 
-export default Foundfun;
+    createEvents = (event) => {
+        console.log (event)
+        // this.setState((prev) => {
+        //     const existingEvent = prev.events
+        //     existingEvent.push(event)
+
+        //     return {
+        //         events: existingEvent
+        //     }
+        // })
+    }
+
+    render() {
+        return (
+            <div><Addfun submitEvent={this.createEvents} /></div>
+        )
+    }
+}
+
+export default Morefun;
